@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/user-registration
+    password: guest
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: 'true'
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      username: user
+      password: user2410
+
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        security: TRACE
