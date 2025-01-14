@@ -15,10 +15,10 @@ spring:
             non_contextual_creation: 'true'
     hibernate:
       ddl-auto: update
-  security:
-    user:
-      username: user
-      password: user2410
+  #security:
+  #  user:
+  #    username: user
+  #    password: user2410
 
 #logging:
 #  level:
